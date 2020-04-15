@@ -32,22 +32,7 @@
     animation-name: slideIn;
     animation-duration: 0.8s;
 }
-@keyframes slideIn {
-    from {left: -500px;}
-    to {left: 0;}
-  }
-@keyframes slideInRight {
-    from {right: -500px;}
-    to {right: 0;}
-}
-@keyframes slideInBack {
-    from {left: 0;}
-    to {left: -500px;}
-  }
-@keyframes slideInRightBack {
-    from {right: 0;}
-    to {right: -500px;;}
-}
+
 .thex {
     color: white;
     float: right;
@@ -66,13 +51,7 @@
     overflow-x: scroll;
     white-space: nowrap;
 }
-.LeftButton{
-    position: fixed;
-    background:black;
-    color:white;
-    padding: 50px;
-    margin-top: 15%;
-}
+
 .LeftButton{
     position: fixed;
     background:black;

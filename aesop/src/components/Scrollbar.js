@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 class Scrollbar extends Component {
     constructor(props) {
         super(props);
-        this.checkScrollBar = this.checkScrollBar.bind(this);
+        
     }
     componentDidMount() {
         let scrollBar = document.getElementsByClassName('scrollBar')[this.props.num];
@@ -61,16 +61,7 @@ class Scrollbar extends Component {
         
     }
     
-    checkScrollBar(element,left,right) {
-        if(element.scrollLeft===0){
-            left.style.display = "none";
-        } else if (element.scrollLeft>=window.outerWidth){
-            right.style.display = "none";
-        } else {
-            left.style.display = "block";
-            right.style.display = "block";
-        }
-    }
+    
     render() {
         return (
             <div>
