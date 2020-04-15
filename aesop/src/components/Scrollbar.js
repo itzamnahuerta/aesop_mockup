@@ -12,18 +12,18 @@ class Scrollbar extends Component {
         let scrollBar = document.getElementsByClassName('scrollBar')[this.props.num];
         let leftButton = document.getElementsByClassName("LeftButton")[this.props.num];
         let rightButton = document.getElementsByClassName("RightButton")[this.props.num];
-        console.log(window.innerWidth, window.outerWidth);
-        console.log(scrollBar,leftButton,rightButton);
+        // console.log(window.innerWidth, window.outerWidth);
+        // console.log(scrollBar,leftButton,rightButton);
         if(scrollBar.scrollLeft<=0||scrollBar.scrollLeft===null){
             leftButton.style.position = "absolute";
             leftButton.style.left="-100px"
-            console.log(leftButton.style.left);
+            // console.log(leftButton.style.left);
         } else if (scrollBar.scrollLeft>=window.innerWidth-200){
             leftButton.style.position = "sticky";
             rightButton.style.right="-200px";
-            console.log(rightButton.style.right);
+            // console.log(rightButton.style.right);
         } else {
-            console.log(scrollBar.scrollLeft);
+            // console.log(scrollBar.scrollLeft);
             leftButton.style.position = "sticky";
             leftButton.style.left="0";
             rightButton.style.right="0";
@@ -33,13 +33,13 @@ class Scrollbar extends Component {
             if(scrollBar.scrollLeft<=0||scrollBar.scrollLeft===null){
                 leftButton.style.position = "absolute";
                 leftButton.style.left="-100px"
-                console.log(leftButton.style.left);
+                // console.log(leftButton.style.left);
             } else if (scrollBar.scrollLeft>=window.innerWidth-200){
                 leftButton.style.position = "sticky";
                 rightButton.style.right="-200px";
-                console.log(rightButton.style.right);
+                // console.log(rightButton.style.right);
             } else {
-                console.log(scrollBar.scrollLeft);
+                // console.log(scrollBar.scrollLeft);
                 leftButton.style.position = "sticky";
                 leftButton.style.left="0";
                 rightButton.style.right="0";
@@ -51,13 +51,13 @@ class Scrollbar extends Component {
             if(scrollBar.scrollLeft<=0||scrollBar.scrollLeft===null){
                 leftButton.style.position = "absolute";
                 leftButton.style.left="-100px"
-                console.log(leftButton.style.left);
+                // console.log(leftButton.style.left);
             } else if (scrollBar.scrollLeft>=window.innerWidth-200){
                 leftButton.style.position = "sticky";
                 rightButton.style.right="-200px";
-                console.log(rightButton.style.right);
+                // console.log(rightButton.style.right);
             } else {
-                console.log(scrollBar.scrollLeft);
+                // console.log(scrollBar.scrollLeft);
                 leftButton.style.position = "sticky";
                 leftButton.style.left="0";
                 rightButton.style.right="0";
@@ -71,7 +71,7 @@ class Scrollbar extends Component {
     render() {
         return (
             <div>
-                <div className="scrollBar">
+                <div className="scrollBar FadeIn">
                     <button className="LeftButton">&#8592;</button>
                     <img src={this.props.ImageOne} height="400px"/>
                     <img src={this.props.ImageTwo} height="400px" />
