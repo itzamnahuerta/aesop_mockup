@@ -25,7 +25,16 @@
 }
 .modalSideBar{
     width:50%;
+    height: 100%;
+    position: fixed;
+    background-color: blue;
+    animation-name: slideIn;
+    animation-duration: 0.8s
 }
+@keyframes slideIn {
+    from {left: -500px;}
+    to {left: 0;}
+  }
 .thex {
     color: white;
     float: right;
