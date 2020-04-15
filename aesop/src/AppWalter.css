@@ -47,3 +47,8 @@
   color: #000;
   cursor: pointer;
 }
+
+.scrollBar{
+    display:flex;
+    flex-direction: row;
+}
