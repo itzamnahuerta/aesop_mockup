@@ -9,11 +9,11 @@ class Scrollbar extends Component {
     render() {
         return (
             <div className="scrollBar">
-                <img src={this.props.ImageOne} />
-                <img src={this.props.ImageTwo} />
-                <img src={this.props.ImageThree} />
-                <img src={this.props.ImageFour} />
-                <img src={this.props.ImageFive} />
+                <img src={this.props.ImageOne} height="400px"/>
+                <img src={this.props.ImageTwo} height="400px" />
+                <img src={this.props.ImageThree} height="400px"/>
+                <img src={this.props.ImageFour} height="400px"/>
+                <img src={this.props.ImageFive} height="400px"/>
             </div>
           );
 

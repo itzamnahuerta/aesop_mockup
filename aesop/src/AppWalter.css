@@ -51,4 +51,6 @@
 .scrollBar{
     display:flex;
     flex-direction: row;
+    overflow: scroll;
+    white-space: nowrap;
 }
