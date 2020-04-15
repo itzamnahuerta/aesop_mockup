@@ -12,7 +12,7 @@ import ImageFive from './images/for_all_products/AesopSkin-B-Tea-Balancing-Toner
 function App() {
   return (
     <div className="App">
-      <a id="hoverThis" href="#">test modal display</a>
+      <a id="hoverThis" className="FadeIn" href="#">test modal display</a>
       <Modal />
       <Scrollbar num={0} ImageOne={ImageOne} ImageTwo={ImageTwo} ImageThree={ImageThree} ImageFour={ImageFour} ImageFive={ImageFive}/>
       <Scrollbar num={1} ImageOne={ImageOne} ImageTwo={ImageTwo} ImageThree={ImageThree} ImageFour={ImageFour} ImageFive={ImageFive}/>
