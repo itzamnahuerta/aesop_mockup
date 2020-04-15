@@ -9,6 +9,7 @@ import ImageThree from './images/for_all_products/Aesop-Skin-Mandarin-Facial-Hyd
 import ImageFour from './images/for_all_products/Aesop-SkinParsley-Seed-Facial-Cleanser-100mL-large.png';
 import ImageFive from './images/for_all_products/AesopSkin-B-Tea-Balancing-Toner-200mL-large.png';
 import FadeIn from './components/FadeIn';
+{/*all images are passed into scrollbar in order to make it reusable*/}
 function App() {
   return (
     <div className="App">

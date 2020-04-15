@@ -14,6 +14,7 @@ class Scrollbar extends Component {
         let rightButton = document.getElementsByClassName("RightButton")[this.props.num];
         // console.log(window.innerWidth, window.outerWidth);
         // console.log(scrollBar,leftButton,rightButton);
+        {/*take the scrollbar component and hide the left button through a series of conditional checks*/}
         if(scrollBar.scrollLeft<=0||scrollBar.scrollLeft===null){
             leftButton.style.position = "absolute";
             leftButton.style.left="-100px"
@@ -28,6 +29,7 @@ class Scrollbar extends Component {
             leftButton.style.left="0";
             rightButton.style.right="0";
         }
+        {/*onclick for each button move he scrollbar left or right respectively*/}
         leftButton.onclick = function() {
             scrollBar.scrollLeft-=200;
             if(scrollBar.scrollLeft<=0||scrollBar.scrollLeft===null){
