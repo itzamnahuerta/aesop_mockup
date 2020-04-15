@@ -63,7 +63,7 @@
 .scrollBar{
     display:flex;
     flex-direction: row;
-    overflow: scroll;
+    overflow-x: scroll;
     white-space: nowrap;
 }
 .LeftButton{
