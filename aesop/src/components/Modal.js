@@ -7,6 +7,7 @@ class Modal extends Component {
         
     }
     componentDidMount(){
+        {/* the modal on the page is hidden and is only shown via button clicks*/}
         let modal = document.getElementsByClassName("modal")[0];
         let thex = document.getElementsByClassName("thex")[0];
         let link = document.getElementById("hoverThis");
