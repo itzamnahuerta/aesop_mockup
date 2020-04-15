@@ -54,19 +54,20 @@
 }
 
 .LeftButton{
-    position: sticky;
+    position: fixed;
     background:black;
     color:white;
-    padding: 50px;
+    padding: 25px;
     margin-top: 15%;
     margin-bottom: 15%;
+    left:-200px;
     transition: all 0.8s;
 }
 .RightButton{
     position: sticky;
     background:black;
     color:white;
-    padding: 50px;
+    padding: 25px;
     margin-top: 15%;
     margin-bottom: 15%;
     right:0;
