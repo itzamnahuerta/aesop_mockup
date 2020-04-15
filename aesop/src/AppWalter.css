@@ -30,7 +30,7 @@
     position: fixed;
     background-color: blue;
     animation-name: slideIn;
-    animation-duration: 0.8s
+    animation-duration: 0.8s;
 }
 @keyframes slideIn {
     from {left: -500px;}
@@ -67,6 +67,8 @@
     color:white;
     padding: 50px;
     margin-top: 15%;
+    animation-name: slideIn;
+    animation-duration: 0.8s;
 }
 .RightButton{
     position: fixed;
