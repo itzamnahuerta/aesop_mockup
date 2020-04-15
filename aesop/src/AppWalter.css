@@ -8,7 +8,7 @@
 #hoverThis{
     text-align: center;
     width: 100%;
-    padding:500px;
+    padding:300px;
 }
 .modal{
     background-color: rgba(0,0,0,0.4);
@@ -17,6 +17,7 @@
     height: 100%;
     transition: all 1s;
     position: fixed;
+    display:none;
     top: 0;
     left:0;
     background-repeat: no-repeat;
