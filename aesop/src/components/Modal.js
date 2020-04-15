@@ -4,8 +4,9 @@ function Modal() {
   return (
     <div className="modal">
       <div className="modalSideBar">
-        some text inside
+        
         <span className="thex">&times;</span>
+        some text inside
       </div>
     </div>
   );
