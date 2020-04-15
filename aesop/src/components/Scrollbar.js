@@ -1,8 +1,21 @@
 import React, { Component } from 'react';
-
+{/*https://www.w3schools.com/howto/howto_css_menu_horizontal_scroll.asp*/}
+{/*https://stackoverflow.com/questions/46233598/how-to-control-an-elements-scrollbar-in-javascript*/}
 class Scrollbar extends Component {
     constructor(props) {
         super(props);
+        
+    }
+    componentDidMount() {
+        let scrollBar = document.getElementsByClassName('scrollBar')[0];
+        let leftButton = document.getElementsByClassName("LeftButton")[0];
+        let rightButton = document.getElementsByClassName("RightButton")[0];
+        leftButton.onclick = function() {
+            scrollBar.scrollLeft-=200;
+          };
+        rightButton.onclick = function() {
+            scrollBar.scrollLeft+=200;
+        };
         
     }
     
@@ -16,8 +29,8 @@ class Scrollbar extends Component {
                     <img src={this.props.ImageFour} height="400px"/>
                     <img src={this.props.ImageFive} height="400px"/>
                 </div>
-                <button>Left Arrow</button>
-                <button>Right Arrow</button>
+                <button className="LeftButton">Left Arrow</button>
+                <button className="RightButton">Right Arrow</button>
             </div>
           );
 
