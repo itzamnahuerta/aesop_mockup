@@ -73,3 +73,6 @@
     right:0;
     transition: all 0.8s;
 }
+.FadeIn{
+    opacity: 0;
+}
