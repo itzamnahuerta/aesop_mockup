@@ -3,7 +3,6 @@ import React from 'react';
 function Modal() {
   return (
     <div className="modal">
-      some text outside
       <div className="modalSideBar">
         some text inside
         <span className="thex">&times;</span>
