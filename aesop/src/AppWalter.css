@@ -54,3 +54,25 @@
     overflow: scroll;
     white-space: nowrap;
 }
+.LeftButton{
+    position: fixed;
+    background:black;
+    color:white;
+    padding: 50px;
+    margin-top: 15%;
+}
+.LeftButton{
+    position: fixed;
+    background:black;
+    color:white;
+    padding: 50px;
+    margin-top: 15%;
+}
+.RightButton{
+    position: fixed;
+    background:black;
+    color:white;
+    padding: 50px;
+    margin-top: 15%;
+    right:0;
+}
