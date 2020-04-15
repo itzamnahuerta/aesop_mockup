@@ -7,9 +7,9 @@ class Scrollbar extends Component {
         this.checkScrollBar = this.checkScrollBar.bind(this);
     }
     componentDidMount() {
-        let scrollBar = document.getElementsByClassName('scrollBar')[0];
-        let leftButton = document.getElementsByClassName("LeftButton")[0];
-        let rightButton = document.getElementsByClassName("RightButton")[0];
+        let scrollBar = document.getElementsByClassName('scrollBar')[this.props.num];
+        let leftButton = document.getElementsByClassName("LeftButton")[this.props.num];
+        let rightButton = document.getElementsByClassName("RightButton")[this.props.num];
         console.log(leftButton.style.animation);
         console.log(rightButton.style.animation);
         if(scrollBar.scrollLeft===0){
