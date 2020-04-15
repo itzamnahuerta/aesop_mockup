@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <a id="hoverThis" href="#">test modal display</a>
       <Modal />
-      <Scrollbar ImageOne={ImageOne}/>
+      <Scrollbar ImageOne={ImageOne} ImageTwo={ImageTwo} ImageThree={ImageThree} ImageFour={ImageFour} ImageFive={ImageFive}/>
     </div>
   );
 }
