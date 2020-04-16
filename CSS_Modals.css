@@ -65,7 +65,7 @@
 
 .LeftButton{
     position: fixed;
-    background:black;
+    background: rgba(0, 0, 0, 0.824);
     color:white;
     padding: 25px;
     margin-top: 15%;
@@ -75,7 +75,7 @@
 }
 .RightButton{
     position: sticky;
-    background:black;
+    background:rgba(0, 0, 0, 0.824);
     color:white;
     padding: 25px;
     margin-top: 15%;
