@@ -7,10 +7,14 @@
     width: 100%;
 }
 #hoverThis{
+    border: solid;
+    border: white;
+    color: white;
     text-align: center;
-    width: 100%;
-    padding:300px;
     font-size:30px;
+    width: 100%;
+    padding:500px;
+    margin-left: 100px;
     background-color: rgba(0, 0, 0, 0.824); 
 }
 .modal{
