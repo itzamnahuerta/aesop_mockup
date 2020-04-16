@@ -55,6 +55,7 @@
 }
 
 .scrollBar{
+    background-color: #FFFEF3;
     display:flex;
     flex-direction: row;
     overflow-x: scroll;
