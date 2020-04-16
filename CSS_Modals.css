@@ -36,7 +36,7 @@
     width:50%;
     height: 100%;
     position: fixed;
-    background-color: blue;
+    background-color: #FFFEF3;
     animation-name: slideIn;
     animation-duration: 1s;
     transition: all 1s;
