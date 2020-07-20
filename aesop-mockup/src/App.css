@@ -1,0 +1,69 @@
+/* BODY */
+.App {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+.child {
+  border-bottom: 1px solid black;
+  background-color: #FFFEF4;
+  color: #7D7C78;
+  font-family: font83278;
+}
+h1 {
+  font-size: 20px;
+}
+h2 {
+  font-size: 15px;
+}
+button, .input{
+  color: #7D7C78;
+  background-color: #FFFEF4;
+  border: 1px solid #7D7C78;
+  padding: 10px;
+  font-family: font83278;
+}
+.login, .input {
+  border: none;
+}
+.input {
+  background-color: wheat;
+}
+/* HEADER */
+
+/* NAV */
+
+/* MAIN */
+.main {
+  height: 500px;
+  background-image: url('/aesop-mockup/src/Aesop-Homepage-Banner.jpg');
+}
+/* ARCHITECTURE */
+.slide-container {
+  height: 500px;
+}
+
+/* FOOTER */
+.footer {
+  display: grid;
+  grid-template-areas: 
+    "footer1 footer2 footer3 footer4";
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: left;
+}
+ul {
+  list-style: none;
+}
+.footer1 {
+  grid-area: footer1;
+  
+}
+.footer2 {
+  grid-area: footer2;
+}
+.footer3 {
+  grid-area: footer3;
+}
+.footer4 {
+  grid-area: footer4;
+}
